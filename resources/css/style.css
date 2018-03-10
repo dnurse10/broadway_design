@@ -11,15 +11,17 @@ h1,
 h2,
 .subheader {
   font-weight: bold;
-
 }
 
 .header {
   background-image: url(../images/images_building.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
   color: white;
 }
 
-a {
+nav p a {
   color: white;
   font-size: 18px;
 }
@@ -32,10 +34,20 @@ h3 {
   font-size: 23px;
 }
 
-.footer {
-  text-align: left;
+.description {
+  font-size: 14px;
 }
 
-.footer {
+.subheader {
+  font-size: 23px;
+  background-image: url(../images/images_building.png);
+  background-position: top;
+  color: white;
+}
+
+.footer,
+.nav-footer {
+  text-align: left;
   font-size: 11px;
+  background-color: dimgray;
 }

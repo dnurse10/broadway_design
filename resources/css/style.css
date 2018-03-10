@@ -9,6 +9,7 @@ h1 {
 
 h1,
 h2,
+h3,
 .subheader {
   font-weight: bold;
 }
@@ -50,4 +51,5 @@ h3 {
   text-align: left;
   font-size: 11px;
   background-color: dimgray;
+  color: white;
 }
